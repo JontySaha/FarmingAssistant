@@ -1,6 +1,5 @@
 package com.cg.entity;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -18,7 +17,7 @@ public class Complaint {
 	@GeneratedValue
 	private int id;
 	
-	@Column(name = "complaint",nullable=false)
+//	@Column(name = "complaint",nullable=false)
 	private String complaint;
 
 	private boolean status=false;

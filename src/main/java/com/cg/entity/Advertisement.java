@@ -18,16 +18,16 @@ public class Advertisement {
 	@GeneratedValue
 	private int id;
 	
-	@Column(name = "cropType",nullable=false)
+//	@Column(name = "cropType",nullable=false)
 	private String cropType;
 	
-	@Column(name = "quantity",nullable=false)
+//	@Column(name = "quantity",nullable=false)
 	private int quantity;
 
-	@Column(name = "weight",nullable=false)
+//	@Column(name = "weight",nullable=false)
 	private String weight;
 	
-	@Column(name = "price",nullable=false)
+//	@Column(name = "price",nullable=false)
 	private String price;
 
 	private boolean status=false;
